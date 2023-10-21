@@ -1,0 +1,16 @@
+
+
+.myContainer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 237, 191);
+    color: darkred;
+
+    h2 {
+        margin: 3rem 0 3rem 3rem;
+        padding-top: 2rem;
+    }
+
+    .myCard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}

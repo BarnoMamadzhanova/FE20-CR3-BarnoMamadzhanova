@@ -1,0 +1,30 @@
+
+
+<div class="container myContainer">
+    <h2>Specialities</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 myRow">
+      <!-- Use a Bootstrap grid class to specify the number of columns per row -->
+      <div class="card myCard" *ngFor="let value of menuArr; index as i">
+        <img [src]="value.image" class="card-img-top w-100" [alt]="value.title">
+        <div class="card-body">
+          <h5 class="card-title">{{value.title}}</h5>
+          <p class="card-text">{{value.description}}</p>
+          <p class="card-text">{{value.price | currency}}</p>
+          <div class="buttons">
+            <ng-template [ngIf]="value.availability" [ngIfElse]="none">
+              <a routerLink="/menu/{{i}}" class="btn btn-outline-info">Details</a>
+              <a routerLink="/menu/{{i}}" class="btn btn-outline-success">Order</a>
+            </ng-template>
+            <ng-template #none>
+              <p>Not available</p>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  

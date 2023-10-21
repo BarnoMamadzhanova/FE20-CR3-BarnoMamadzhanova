@@ -1,0 +1,51 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+    // font-family: 'DM Mono', monospace;
+    // font-family: 'Montserrat', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    // font-family: 'Ubuntu Mono', monospace;
+
+    
+    .myNav {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: sticky;
+        top: 3rem;
+        background-color: rgb(255, 237, 191);
+
+        a img {
+            width: 120px;
+            height: 100px;
+        }
+
+        .myToggler:hover {
+            background-color: rgba(139, 0, 0, 0.939);
+        }
+
+        ul li a {
+            color: darkred;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+            padding: 10px;
+
+            &:hover {
+                background-color: darkred;
+                color: rgb(255, 237, 191);
+            }
+        }
+    }
+
+
+    // list-style-type: none;
+    // margin: 0;
+    // padding: 0;
+    // overflow: hidden;
+    // background-color: #333;
+    // position: -webkit-sticky; /* Safari */
+    // position: sticky;
+    // top: 0;
+    

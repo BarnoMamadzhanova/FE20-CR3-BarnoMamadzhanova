@@ -1,0 +1,20 @@
+
+
+.footer-navigation {
+    background-color: darkred;
+    color: rgb(255, 237, 191);
+    padding: 40px 0px;
+
+    .foot-links {
+        display: flex;
+        justify-content: center;
+        align-items:  baseline;
+        margin-bottom: 15px;
+        gap: 2rem;
+    }
+
+    .foot-copyright {
+        text-align: center;
+    }
+
+}

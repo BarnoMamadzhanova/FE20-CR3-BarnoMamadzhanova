@@ -1,0 +1,76 @@
+
+<div class="container myContainer">
+    <h2>Order</h2>
+    <div class="grid">
+        <div class="card mb-3 myCard"  *ngFor="let value of order, index as i">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{{value.image}}" class="img-fluid rounded-start" alt="{{value.title}}">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">{{value.title}}</h5>
+                  <p class="card-text">{{value.price | currency}}</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="total">
+        <p>Amount: {{total}}</p>
+        <p>Service: {{service}}</p>
+        <p>Discount: {{discount}}</p>
+        <hr>
+        <h5>Total amount: {{totalLast}}</h5>
+    </div>
+    <br><br>
+    <div class="form-container">
+      <form [formGroup]="info" class="form">
+    
+        <h3>Order Form</h3>
+    
+        <label for="name">Name</label><br>
+        <input id="name" type="text" formControlName="name" class="custom-input"><br>
+    
+        <label for="address">Address</label><br>
+        <input id="address" type="text" formControlName="address" class="custom-input"><br>
+    
+        <label for="phone">Phone number</label><br>
+        <input id="phone" type="number" formControlName="phone" class="custom-input"><br>
+        <br>
+        <button class="btn btn-outline-primary" type="submit">Purchase</button>
+        <br><br>
+      </form>
+    </div>
+</div>
+
+
+<!-- <div class="form-container">
+  <form [formGroup]="info" class="form">
+
+      <h3>Order Form</h3>
+
+      <label for="name">Name</label><br>
+      <input id="name" type="text" formControlName="name"><br>
+
+      <label for="address">Address</label><br>
+      <input id="address" type="text" formControlName="address"><br>
+
+      <label for="phone">Phone number</label><br>
+      <input id="phone" type="number" formControlName="phone"><br>
+      <br>
+      <button class="btn btn-outline-primary" type="submit">Purchase</button>
+  </form>
+</div> -->
+
+
+
+
+
+
+    
+
+    
+
+
+

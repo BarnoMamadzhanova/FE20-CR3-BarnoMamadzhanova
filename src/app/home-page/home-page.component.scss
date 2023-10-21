@@ -1,0 +1,127 @@
+
+
+.myCarousel {
+    height: 100vh;
+
+    .carousel-item img {
+        height: 100vh;
+    }
+
+    .carCap {
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+        h4 {
+            padding: 10px 5rem;
+            background-color: darkred;
+            color: rgb(255, 237, 191);
+            width: fit-content;
+        }
+
+        h6 {
+            padding: 10px 10rem 12px 5rem;
+            background-color: darkred;
+            color: rgb(255, 237, 191);
+            margin-bottom: 15px;
+            width: fit-content;
+        }
+    }
+}
+
+.main {
+    background-color: rgb(255, 237, 191);
+    color: darkred;
+
+    .main1 {
+        padding: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+        img {
+            width: 40vw;
+            height: 380px;
+            border-radius: 5rem;
+        }
+
+        .main1Text {
+            text-align: center;
+            h5 {
+                background-color: darkred;
+                color: rgb(255, 237, 191);
+                margin-bottom: 1.5rem;
+                padding: 1rem;
+            }
+        }
+    }
+
+    .main2 {
+        padding: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+        img {
+            width: 40vw;
+            height: 380px;
+            border-radius: 5rem;
+        }
+
+        .main2Text {
+            text-align: center;
+            h5 {
+                background-color: darkred;
+                color: rgb(255, 237, 191);
+                margin-bottom: 1.5rem;
+                padding: 1rem;
+            }
+        }
+    }
+    
+    .main3 {
+        padding: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+        img {
+            width: 40vw;
+            height: 380px;
+            border-radius: 5rem;
+        }
+
+        .main3Text {
+            text-align: center;
+            width: 60%;
+            h5 {
+                background-color: darkred;
+                color: rgb(255, 237, 191);
+                margin-bottom: 1.5rem;
+                padding: 1rem;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    width: 80%;
+                }
+
+                .myBtn {
+                    width: fit-content;
+                    padding: 10px 25px;
+                    align-self: center;
+                }
+                
+            }
+        }
+    }
+}

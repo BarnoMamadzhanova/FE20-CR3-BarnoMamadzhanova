@@ -1,0 +1,63 @@
+
+
+.myContainer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 237, 191);
+    color: darkred;
+    margin-bottom: 3rem;
+
+    h2 {
+        margin: 3rem 0 1rem 0;
+        padding-top: 2rem;
+    }
+
+    .grid{
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(132, 115, 1, 0.2), 0 6px 20px 0 rgba(132, 115, 1, 0.2);
+        text-align: center;
+
+        .card-body {
+            margin-top: 5rem;
+            background-color: darkred;
+            color: rgb(255, 237, 191);
+
+        }
+
+        .total {
+            margin: 2rem 3rem;
+        }
+
+        .form-container{
+            margin: 2rem 3rem;
+
+            .form {
+                display: flex;
+                flex-direction: column;
+                $gap: 20px;
+                row-gap: $gap;
+                padding: 15px 15px;
+
+                h3 {
+                    margin-left: 3rem;
+                }
+               
+                label {
+                    font-size: larger;
+                    margin-bottom: -$gap;
+     
+                }
+    
+                input {
+                    width: 50%;
+                    padding: 7px 0;
+                    border: none;
+                }
+    
+                button {
+                    width: fit-content;
+                }
+            }
+        }
+          
+    }
+}
