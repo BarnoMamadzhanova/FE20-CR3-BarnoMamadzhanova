@@ -1,11 +1,11 @@
-
-
 .myCarousel {
     height: 100vh;
 
     .carousel-item img {
+        object-fit: cover;
         height: 100vh;
         aspect-ratio: 16/9;
+        object-fit: cover;
     }
 
     .carCap {
@@ -43,6 +43,7 @@
         gap: 2rem;
 
         img {
+            object-fit: cover;
             width: 40vw;
             height: 380px;
             border-radius: 5rem;
@@ -50,6 +51,7 @@
 
         .main1Text {
             text-align: center;
+
             h5 {
                 background-color: darkred;
                 color: rgb(255, 237, 191);
@@ -68,6 +70,7 @@
         gap: 2rem;
 
         img {
+            object-fit: cover;
             width: 40vw;
             height: 380px;
             border-radius: 5rem;
@@ -75,6 +78,7 @@
 
         .main2Text {
             text-align: center;
+
             h5 {
                 background-color: darkred;
                 color: rgb(255, 237, 191);
@@ -83,7 +87,7 @@
             }
         }
     }
-    
+
     .main3 {
         padding: 5rem;
         display: flex;
@@ -93,6 +97,7 @@
         gap: 2rem;
 
         img {
+            object-fit: cover;
             width: 40vw;
             height: 380px;
             border-radius: 5rem;
@@ -101,6 +106,7 @@
         .main3Text {
             text-align: center;
             width: 60%;
+
             h5 {
                 background-color: darkred;
                 color: rgb(255, 237, 191);
@@ -121,7 +127,7 @@
                     padding: 10px 25px;
                     align-self: center;
                 }
-                
+
             }
         }
     }

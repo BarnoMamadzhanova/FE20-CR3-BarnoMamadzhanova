@@ -2,8 +2,9 @@
 .myCarousel {
     height: 100vh;
 
-    .carousel-item img {
+    .carousel-item img { 
         height: 100vh;
+        object-fit: cover;
     }
 
     .carCap {
@@ -40,7 +41,7 @@
         align-items: center;
         gap: 2rem;
 
-        img {
+        img { object-fit: cover;
             width: 40vw;
             height: 380px;
             border-radius: 5rem;
@@ -65,7 +66,7 @@
         align-items: center;
         gap: 2rem;
 
-        img {
+        img { object-fit: cover;
             width: 40vw;
             height: 380px;
             border-radius: 5rem;
